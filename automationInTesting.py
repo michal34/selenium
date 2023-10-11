@@ -11,8 +11,8 @@ chrome_options.add_argument("--lang=pl-PL")
 driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://automationintesting.online/")
 driver.implicitly_wait(1)
-# User Story 1 Testing Scenario 1
 
+# User Story 1 Testing Scenario 1
 
 driver.find_element(By.XPATH, "//button[text()='Book this room']").click()
 driver.implicitly_wait(1)
